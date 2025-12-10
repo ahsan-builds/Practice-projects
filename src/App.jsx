@@ -3,6 +3,7 @@ import { MdDeleteOutline, MdEdit } from "react-icons/md";
 
 const App = () => {
   const [taskTitle, setTaskTitle] = useState("");
+  
   const [taskDesc, setTaskDesc] = useState("");
   const [tasks, setTasks] = useState([]);
 
